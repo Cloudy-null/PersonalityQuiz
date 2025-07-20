@@ -1,121 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  
-  <!--Recheck The viewport for mobile optimization, this width is for showcasing the current build only-->
-  <meta name="viewport" content="width=980" />
-
-  <title>Personality Quiz</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet"> 
-
-</head>
-<body>
-  <div class="container">
-    <h1>Personality Quiz</h1>
-    <div id="quiz"></div>
-
-  <!-- From Uiverse.io by kyle1dev --> 
-<div class="custom-radio-group">
-    <h2 dir="rtl" lang="ar">تفضل تشتغل كيف؟</h2>
-  <label class="custom-radio-container">
-    <input type="radio" name="work-style" value="option1" />
-    <span class="custom-radio-checkmark"></span>
-     لوحدي وبتركيز
-
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="work-style" value="option2" />
-    <span class="custom-radio-checkmark"></span>
-    مع فريق صغير
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="work-style" value="option3" />
-    <span class="custom-radio-checkmark"></span>
- في أجواء الهاكاثونات
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="work-style" value="option4" />
-    <span class="custom-radio-checkmark"></span>
-    بشكل غير مباشر عبر Github
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="work-style" value="option5" />
-    <span class="custom-radio-checkmark"></span>
-مرن جداً واقدر اتعامل معها كلها
-  </label>
-</div>
-
-<br>
-
-<div class="custom-radio-group">
-    <h2 dir="rtl" lang="ar">لو انحطيت في فريق مجهول، وش تسوي؟</h2>
-
-  <label class="custom-radio-container">
-    <input type="radio" name="unknown-team" value="option1" />
-    <span class="custom-radio-checkmark"></span>
-    اتصرف بشكل قيادي واوزع المهام
-
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="unknown-team" value="option2" />
-    <span class="custom-radio-checkmark"></span>
-    اشارك عشان اثبت وجودي كعضو فعال
-</label>
-  <label class="custom-radio-container">
-    <input type="radio" name="unknown-team" value="option3" />
-    <span class="custom-radio-checkmark"></span>
-    اراقب اول، ثم ابدأ اندمج
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="unknown-team" value="option4" />
-    <span class="custom-radio-checkmark"></span>
-ابقى هادي، واؤدي مهمتي بصمت
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="unknown-team" value="option5" />
-    <span class="custom-radio-checkmark"></span>
-انسحب، اشتغل فقط مع معارفي  </label>
-</div>
-
-<br>
-
-<div class="custom-radio-group">
-    <h2 dir="rtl" lang="ar">كيف تحب تتعامل مع المشاكل؟</h2>
-  <label class="custom-radio-container">
-    
-    <input type="radio" name="problem-solving" value="option1" />
-    <span class="custom-radio-checkmark"></span>
-    أواجه المشكلة مباشرة وأبحث عن حل
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="problem-solving" value="option2" />
-    <span class="custom-radio-checkmark"></span>
-    أبحث عن مساعدة من الآخرين
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="problem-solving" value="option3" />
-    <span class="custom-radio-checkmark"></span>
-    أتحلى بالصبر وأبحث عن حل تدريجي
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="problem-solving" value="option4" />
-    <span class="custom-radio-checkmark"></span>
-    أترك الأمور تسير كما هي
-  </label>
-  <label class="custom-radio-container">
-    <input type="radio" name="problem-solving" value="option5" />
-    <span class="custom-radio-checkmark"></span>
-    أبحث عن حلول مبتكرة وغير تقليدية
-  </label>
-</div>
-
-    <div><button id="submit">Submit</button></div>
-    <div id="result"></div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personality Quiz</title>
+     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
