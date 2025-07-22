@@ -7,6 +7,6 @@ export const questions = [
   {
     id: 2,
     text: "Which food do you prefer?",
-    options: ["Pizza", "Burger"]
+    options: ["Pizza", "Burger", "Pasta", "Salad"]
   }
 ];
