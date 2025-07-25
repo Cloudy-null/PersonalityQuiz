@@ -5,8 +5,9 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-content">
         <img 
-          src= "..\public\ProgrammigClub.png"
+          src="/ProgrammigClub.png"
           className="logo"
+          alt="Logo"
         />
         <h1 className="title">Personality Quiz</h1>
       </div>
