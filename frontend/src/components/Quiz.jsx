@@ -20,6 +20,7 @@ export default function Quiz() {
       setSelectedIndex(answers[currentIndex + 1] ?? null);
     } else {
       //end of the quiz
+      alert("Quiz completed! Your answers have been recorded.");
 
     }
   };
